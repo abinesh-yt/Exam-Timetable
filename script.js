@@ -12,7 +12,7 @@ async function getTimeTable() {
     for (let row of theoryRows){
         let cols = row.split(",").map(c => c.trim());
         if(cols[0] === regNo){
-            output+=`<li> ${cols[1]}-${cols[2]}-${cols[3]}-${cols[4]}-${cols[5]}-${cols[6]}</li>`;
+            output+=`<li> ${cols[1]}-${cols[2]}-${cols[3]}-${cols[4]}-${cols[5]}-${cols[6]}-${cols[7]}-${cols[8]}</li>`;
         }
     }
 
@@ -21,7 +21,7 @@ async function getTimeTable() {
     for (let row of praticalrows){
         let cols = row.split(",").map(c=>c.trim());
         if(cols[0] === regNo){
-            output+=`<li> ${cols[1]}-${cols[2]}-${cols[3]}-${cols[4]}-${cols[5]}-${cols[6]}</li>`;
+            output+=`<li> ${cols[1]}-${cols[2]}-${cols[3]}-${cols[4]}-${cols[5]}-${cols[6]}-${cols[7]}-${cols[8]}</li>`;
         }
     }
 
